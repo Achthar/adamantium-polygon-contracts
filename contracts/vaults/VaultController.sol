@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-
+/*
 pragma solidity 0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -15,8 +15,8 @@ contract VaultController is Ownable, Initializable {
 
     address public admin;
     address public collateralReserve;
-    address private usdc = 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174; // usdc
-    address private wmatic = 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270; // wmatic
+    address private usdc = 0xBD2094e633296909DDc7954Cf2f29e2f508112a2; //0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174; // usdc
+    address private wmatic = 0x86652c1301843B4E06fBfbBDaA6849266fb2b5e7;//0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270; // wmatic
     ITreasuryVault public treasuryVault;
 
     uint256 private constant RATIO_PRECISION = 1000000; // 6 decimals
@@ -126,3 +126,4 @@ contract VaultController is Ownable, Initializable {
 
     receive() external payable {}
 }
+*/
