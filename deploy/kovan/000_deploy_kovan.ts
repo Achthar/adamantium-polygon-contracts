@@ -149,15 +149,6 @@ const run: DeployFunction = async (hre) => {
     from: creator,
     log: true,
   });
-
-  const oracle_DOLLAR_DAI = await deploy('PairOracle_DOLLAR_DAI', {
-    contract: 'MockPairOracle',
-    args: [1003000],
-    from: creator,
-    log: true,
-  });
-
-
   const oracle_SHARE_BNB = await deploy('PairOracle_SHARE_BNB', {
     contract: 'MockPairOracle',
     args: [20000],
@@ -165,26 +156,23 @@ const run: DeployFunction = async (hre) => {
     log: true,
   });
 
-
- const oracleCollateral = await deploy('DaiOracle', {
-    args: [mockPriceFeed_DAI_USD.address, oracle_DOLLAR_DAI.address, 0 /* missing decimals pram */],
+  const oracleCollateral = await deploy('DaiOracle', {
+    args: [mockPriceFeed_DAI_USD.address],
     from: creator,
     log: true,
   });
 
-
   const oracleDollar = await deploy('DollarOracle', {
-    args: [dollar.address, oracle_DOLLAR_BUSD.address, oracleCollateral.address, 1  /*missing decimals pram */],
+    args: [dollar.address, oracle_DOLLAR_BUSD.address, oracleCollateral.address],
     from: creator,
     log: true,
   });
 
   const oracleShare = await deploy('ShareOracle', {
-    args: [share.address, oracle_SHARE_BNB.address, mockPriceFeed_ETH_USD.address/*, 1  missing decimals pram */],
+    args: [share.address, oracle_SHARE_BNB.address, mockPriceFeed_ETH_USD.address],
     from: creator,
     log: true,
   });
-
 
   await execute(
     'CollateralRatioPolicy',
@@ -203,9 +191,9 @@ const run: DeployFunction = async (hre) => {
   );
 };
 
-run.tags = ['mumbai'];
+run.tags = ['kovan'];
 
 run.skip = async (hre) => {
-  return hre.network.name !== 'mumbai';
+  return hre.network.name !== 'kovan';
 };
 export default run;

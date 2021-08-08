@@ -1,0 +1,201 @@
+{
+  "address": "0xE940f9c094201cAB8334b3B5AD3b97176B0d6b12",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "_mock_price",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_decimals",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mock_decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mock_price",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "_decimals",
+          "type": "uint8"
+        }
+      ],
+      "name": "setDecimals",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "_mock_price",
+          "type": "int256"
+        }
+      ],
+      "name": "setLatestPrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xa699ed8d9e704978157874e8e984a89f6aa0d22385e56c9ab6af7716d3a0ce73",
+  "receipt": {
+    "to": null,
+    "from": "0x333132d4FCbe1B7F34198AD545672BbA95c5882b",
+    "contractAddress": "0xE940f9c094201cAB8334b3B5AD3b97176B0d6b12",
+    "transactionIndex": 0,
+    "gasUsed": "288738",
+    "logsBloom": "0x00000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000001000000800000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000020000000000000000001000000000000000000000020004000000000000000000001000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000",
+    "blockHash": "0xfe5990673ec92d1140603c016472a428062152f8b11becb3957396127fdee8c3",
+    "transactionHash": "0xa699ed8d9e704978157874e8e984a89f6aa0d22385e56c9ab6af7716d3a0ce73",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 17382608,
+        "transactionHash": "0xa699ed8d9e704978157874e8e984a89f6aa0d22385e56c9ab6af7716d3a0ce73",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x000000000000000000000000333132d4fcbe1b7f34198ad545672bba95c5882b",
+          "0x000000000000000000000000c26880a0af2ea0c7e8130e6ec47af756465452e8"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000834d86f62a000000000000000000000000000000000000000000000000000140990a48f2bc00000000000000000000000000000000000000000000000010652d88995817e890100000000000000000000000000000000000000000000000014015bcc1fc9200000000000000000000000000000000000000000000000010652e0be6df0e12901",
+        "logIndex": 0,
+        "blockHash": "0xfe5990673ec92d1140603c016472a428062152f8b11becb3957396127fdee8c3"
+      }
+    ],
+    "blockNumber": 17382608,
+    "cumulativeGasUsed": "288738",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "4950000000",
+    8
+  ],
+  "solcInputHash": "528e37ad3cee8dde3b849d6f9ffe4ef0",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"_mock_price\",\"type\":\"int256\"},{\"internalType\":\"uint8\",\"name\":\"_decimals\",\"type\":\"uint8\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"latestRoundData\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"mock_decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"mock_price\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"_decimals\",\"type\":\"uint8\"}],\"name\":\"setDecimals\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"_mock_price\",\"type\":\"int256\"}],\"name\":\"setLatestPrice\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/_mock/oracle/MockChainlinkAggregator.sol\":\"MockChainlinkAggregator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/_mock/oracle/MockChainlinkAggregator.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity 0.8.4;\\n\\ncontract MockChainlinkAggregator {\\n    int256 public mock_price;\\n    uint8 public mock_decimals;\\n\\n    constructor(int256 _mock_price, uint8 _decimals) {\\n        mock_price = _mock_price;\\n        mock_decimals = _decimals;\\n    }\\n\\n    function decimals() external view returns (uint8) {\\n        return mock_decimals;\\n    }\\n\\n    function latestRoundData()\\n        external\\n        view\\n        returns (\\n            uint80,\\n            int256 answer,\\n            uint256,\\n            uint256,\\n            uint80\\n        )\\n    {\\n        answer = mock_price;\\n    }\\n\\n    function setLatestPrice(int256 _mock_price) public {\\n        mock_price = _mock_price;\\n    }\\n\\n    function setDecimals(uint8 _decimals) public {\\n        mock_decimals = _decimals;\\n    }\\n}\\n\",\"keccak256\":\"0xe8e5afd96da88c818ff296d4f8b42761dd992d90e7e8f1c9b22cef1c5f071c25\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161047738038061047783398181016040528101906100329190610085565b8160008190555080600160006101000a81548160ff021916908360ff1602179055505050610106565b60008151905061006a816100d8565b92915050565b60008151905061007f816100ef565b92915050565b6000806040838503121561009857600080fd5b60006100a68582860161005b565b92505060206100b785828601610070565b9150509250929050565b6000819050919050565b600060ff82169050919050565b6100e1816100c1565b81146100ec57600080fd5b50565b6100f8816100cb565b811461010357600080fd5b50565b610362806101156000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c8063313ce567146100675780635161b898146100855780637a1395aa146100a3578063805fe7fb146100bf578063c3a995f9146100db578063feaf968c146100f9575b600080fd5b61006f61011b565b60405161007c91906102ac565b60405180910390f35b61008d610132565b60405161009a919061023e565b60405180910390f35b6100bd60048036038101906100b891906101d9565b610138565b005b6100d960048036038101906100d491906101b0565b610156565b005b6100e3610160565b6040516100f091906102ac565b60405180910390f35b610101610173565b604051610112959493929190610259565b60405180910390f35b6000600160009054906101000a900460ff16905090565b60005481565b80600160006101000a81548160ff021916908360ff16021790555050565b8060008190555050565b600160009054906101000a900460ff1681565b6000806000806000805493509091929394565b600081359050610195816102fe565b92915050565b6000813590506101aa81610315565b92915050565b6000602082840312156101c257600080fd5b60006101d084828501610186565b91505092915050565b6000602082840312156101eb57600080fd5b60006101f98482850161019b565b91505092915050565b61020b816102c7565b82525050565b61021a816102d1565b82525050565b610229816102e8565b82525050565b610238816102db565b82525050565b60006020820190506102536000830184610202565b92915050565b600060a08201905061026e6000830188610220565b61027b6020830187610202565b6102886040830186610211565b6102956060830185610211565b6102a26080830184610220565b9695505050505050565b60006020820190506102c1600083018461022f565b92915050565b6000819050919050565b6000819050919050565b600060ff82169050919050565b600069ffffffffffffffffffff82169050919050565b610307816102c7565b811461031257600080fd5b50565b61031e816102db565b811461032957600080fd5b5056fea26469706673582212208c3da685209444a69bb5cbedfc5f8744c85d5406fa223b778e5002fbe39ea30d64736f6c63430008040033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100625760003560e01c8063313ce567146100675780635161b898146100855780637a1395aa146100a3578063805fe7fb146100bf578063c3a995f9146100db578063feaf968c146100f9575b600080fd5b61006f61011b565b60405161007c91906102ac565b60405180910390f35b61008d610132565b60405161009a919061023e565b60405180910390f35b6100bd60048036038101906100b891906101d9565b610138565b005b6100d960048036038101906100d491906101b0565b610156565b005b6100e3610160565b6040516100f091906102ac565b60405180910390f35b610101610173565b604051610112959493929190610259565b60405180910390f35b6000600160009054906101000a900460ff16905090565b60005481565b80600160006101000a81548160ff021916908360ff16021790555050565b8060008190555050565b600160009054906101000a900460ff1681565b6000806000806000805493509091929394565b600081359050610195816102fe565b92915050565b6000813590506101aa81610315565b92915050565b6000602082840312156101c257600080fd5b60006101d084828501610186565b91505092915050565b6000602082840312156101eb57600080fd5b60006101f98482850161019b565b91505092915050565b61020b816102c7565b82525050565b61021a816102d1565b82525050565b610229816102e8565b82525050565b610238816102db565b82525050565b60006020820190506102536000830184610202565b92915050565b600060a08201905061026e6000830188610220565b61027b6020830187610202565b6102886040830186610211565b6102956060830185610211565b6102a26080830184610220565b9695505050505050565b60006020820190506102c1600083018461022f565b92915050565b6000819050919050565b6000819050919050565b600060ff82169050919050565b600069ffffffffffffffffffff82169050919050565b610307816102c7565b811461031257600080fd5b50565b61031e816102db565b811461032957600080fd5b5056fea26469706673582212208c3da685209444a69bb5cbedfc5f8744c85d5406fa223b778e5002fbe39ea30d64736f6c63430008040033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 8033,
+        "contract": "contracts/_mock/oracle/MockChainlinkAggregator.sol:MockChainlinkAggregator",
+        "label": "mock_price",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_int256"
+      },
+      {
+        "astId": 8035,
+        "contract": "contracts/_mock/oracle/MockChainlinkAggregator.sol:MockChainlinkAggregator",
+        "label": "mock_decimals",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint8"
+      }
+    ],
+    "types": {
+      "t_int256": {
+        "encoding": "inplace",
+        "label": "int256",
+        "numberOfBytes": "32"
+      },
+      "t_uint8": {
+        "encoding": "inplace",
+        "label": "uint8",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}
